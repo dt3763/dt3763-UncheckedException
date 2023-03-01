@@ -21,9 +21,9 @@ public class Lab {
     public void throwUncheckedException() throws ArithmeticException {
         int a;
         int b;
-      throw new ArithmeticException();
+        throw new ArithmeticException();
     }
-        
+      
 }   
     
         
