@@ -1,3 +1,7 @@
+import java.io.IOException;
+import java.io.UncheckedIOException;
+
+
 
 public class Lab {
     /**
@@ -12,8 +16,19 @@ public class Lab {
      * You could view the entire Exception family here: https://programming.guide/java/list-of-java-exceptions.html
      * Notice that errors are separate from exceptions. Errors are external to Java and can occur when some external
      * event happens, like running out of computer memory.
+     * 
      */
-    public void throwUncheckedException(){
-
+    public void throwUncheckedException() throws ArithmeticException {
+        int a;
+        int b;
+      throw new ArithmeticException();
     }
-}
+        
+}   
+    
+        
+       
+        
+    
+    
+
